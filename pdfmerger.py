@@ -7,4 +7,4 @@ for filename in pdfiles:
     pdfFileReader = PyPDF2.PdfReader(pdfFile)
     merger.append(filename)
 pdfFile.close()
-merger.write('merged.pdf')
+merger.write('mergedd.pdf')

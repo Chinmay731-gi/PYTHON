@@ -14,7 +14,7 @@ while True:
 
     gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
 
-    _, thresholded = cv.threshold(gray, 70, 255, cv.THRESH_BINARY)
+    _, thresholded = cv.threshold(gray, 40, 255, cv.THRESH_BINARY)
 
     contours, _ = cv.findContours(thresholded.copy(), cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
 

@@ -1,14 +1,12 @@
-import pyttsx3
+import edge_tts
+import asyncio
 
-if __name__ == "__main__":
-    print("Welcome")
-    while True:
-        engine = pyttsx3.init()
-        x = input("Enter what you wanna listen: ")
-        if x == "exit":
-            engine.say(f"Thank you,have a nice day")
-            engine.runAndWait()
-            break
-        engine.say(f" {x}")
-        engine.runAndWait()
+async def speak(text):
+    output = "output.mp3"
+    tts = edge_tts.Communicate(text, voice="en-US-ChristopherNeural")
+    await tts.save(output)
+    print("Saved output.mp3")
 
+print("Welcome")
+x = input("Enter what you wanna listen: ")
+asyncio.run(speak(x))

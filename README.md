@@ -153,9 +153,9 @@ A Python script that reads text or documents aloud using text-to-speech.
 
 ---
 
-###📱 WhatsApp Messenger Automation
+### 📱 WhatsApp Messenger Automation
 
-**File:// `whasappmessager.py`
+**File:** `whasappmessager.py`
 Automate sending WhatsApp messages using Python and Twilio API.
 
 Features:
@@ -176,7 +176,7 @@ Automation with Python
 
 ---
 
-###🎮 Tic-Tac-Toe Game
+### 🎮 Tic-Tac-Toe Game
 
 **File:** `tic_tac_toe.py`
 A simple interactive Tic-Tac-Toe game using Python.

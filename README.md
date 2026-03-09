@@ -153,6 +153,50 @@ A Python script that reads text or documents aloud using text-to-speech.
 
 ---
 
+###📱 WhatsApp Messenger Automation
+
+**File:// `whasappmessager.py`
+Automate sending WhatsApp messages using Python and Twilio API.
+
+Features:
+
+Schedule messages for a specific date and time
+
+Send personalized messages
+
+Supports WhatsApp API integration
+
+Technologies:
+
+Twilio API
+
+Python datetime module
+
+Automation with Python
+
+---
+
+###🎮 Tic-Tac-Toe Game
+
+**File:** `tic_tac_toe.py`
+A simple interactive Tic-Tac-Toe game using Python.
+
+Features:
+
+Playable in the terminal or GUI (Tkinter)
+
+Two-player mode
+
+Detects winning conditions and draws
+
+Technologies:
+
+Python
+
+Tkinter (for GUI version)
+
+---
+
 ## 📄 Other Files
 
 * `1.pdf`, `2.pdf`, `merged.pdf` – Sample PDF files used for testing the PDF merger.
